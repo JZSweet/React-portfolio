@@ -1,4 +1,5 @@
 import React from "react";
+import { Button } from 'react-bootstrap';
 
 const About = () => (
   <div>
@@ -10,6 +11,7 @@ const About = () => (
       imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus in. Sed rhoncus mollis
       diam, sit amet facilisis lectus blandit at.
     </p>
+    <Button>jz</Button>
   </div>
 );
 

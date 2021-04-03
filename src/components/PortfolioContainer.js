@@ -1,13 +1,15 @@
 import React, { Component } from "react";
 import NavTabs from "./NavTabs";
-import Home from "./pages/Home";
+import Header from "./Header";
+import Home from "./pages/Project";
 import About from "./pages/About";
 import Blog from "./pages/Blog";
 import Contact from "./pages/Contact";
 
+
 class Portfolio extends Component {
   state = {
-    currentPage: "Home"
+    currentPage: "Project"
   };
 
   handlePageChange = page => {
@@ -15,7 +17,7 @@ class Portfolio extends Component {
   };
 
   renderPage = () => {
-    if (this.state.currentPage === "Home") {
+    if (this.state.currentPage === "Project") {
       return <Home />;
     } else if (this.state.currentPage === "About") {
       return <About />;
