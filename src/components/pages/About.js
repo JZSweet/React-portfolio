@@ -1,24 +1,39 @@
 import React from "react";
 import { Figure, Container, Row, Col } from 'react-bootstrap';
-import JZ from "./JZ.png"
+import JZa from "./JZA.png"
+import JZb from "./JZB.png"
+
+const btn ={backgroundColor: '#2B4141'};
+const styleObj = {
+  fontSize: 25,
+  color: "#E0E1F5",
+  display: "inline-flex",    
+  position: "relative",
+  textAlign: "center",
+  paddingTop: "20px",
+}
 
 const About = () => (
-  <Container>
+  <Container style={btn}>
+    <Row className="justify-content-md-center" >
+      <div style = {styleObj}>Welcome to JZ's portfolio</div>
+      </Row>
+    {/* <Row className="justify-content-md-center">Here is somethings about me</Row> */}
     <Row>
       <Col>
         <Figure>
           <Figure.Image
-            width={900}
-            height={900}
-            alt="171x180"
-            src={JZ}
+            src={JZa}
           />
-          <Figure.Caption>
-            Nulla vitae elit libero, a pharetra augue mollis interdum.
-</Figure.Caption>
         </Figure>
       </Col>
-      <Col>2 of 2</Col>
+      <Col>
+      <Figure>
+          <Figure.Image
+            src={JZb}
+          />
+        </Figure>
+      </Col>
     </Row>
   </Container>
 );

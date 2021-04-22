@@ -9,7 +9,7 @@ function NavTabs(props) {
           onClick={() => props.handlePageChange("About")}
           className={props.currentPage === "About" ? "nav-link active" : "nav-link"}
         >
-          About
+          About JZ
         </a>
       </li>
       <li className="nav-item">

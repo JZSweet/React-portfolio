@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import Groupwork1 from "./Groupwork.png"
-import Groupwork2 from "./secondGW.png"
+// import Groupwork1 from "./Groupwork.png"
+// import Groupwork2 from "./secondGW.png"
 
 class Project extends Component {
   render() {
