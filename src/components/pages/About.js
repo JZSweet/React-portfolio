@@ -5,11 +5,10 @@ import JZb from "./JZB.png"
 
 const btn ={backgroundColor: '#2B4141'};
 const styleObj = {
-  fontSize: 25,
+  fontSize: 20,
   color: "#E0E1F5",
   display: "inline-flex",    
   position: "relative",
-  textAlign: "center",
   paddingTop: "20px",
 }
 
