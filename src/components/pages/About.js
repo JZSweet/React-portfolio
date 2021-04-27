@@ -1,7 +1,9 @@
 import React from "react";
 import { Figure, Container, Row, Col } from 'react-bootstrap';
-import JZa from "./JZA.png"
-import JZb from "./JZB.png"
+// import JZa from "./JZA.png"
+// import JZb from "./JZB.png"
+import JZa from "./jz1.png";
+import JZb from "./jz2.png";
 
 const btn ={backgroundColor: '#2B4141'};
 const styleObj = {
