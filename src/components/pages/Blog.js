@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-import { Carousel, Container, Row, Col } from "react-bootstrap";
+import { FaCameraRetro, FaHandHoldingHeart } from "react-icons/fa";
+import { Carousel, Container, Row, Col, ListGroup } from "react-bootstrap";
 import sky1 from "./1.jpg";
 import sky2 from "./2.jpg";
 import sky3 from "./3.JPG";
@@ -9,8 +10,16 @@ class Blog extends Component {
     return (
       <Container>
         <Row>
-          <Col>Some of my works and life outside of coding.</Col>
-          <Col>Photograph credit:JZ</Col>
+          <Col>
+            <ListGroup variant="flush">
+              <ListGroup.Item> <FaHandHoldingHeart size={16}/>  Here are some fragments of my works and life outside of coding.</ListGroup.Item>
+            </ListGroup>
+          </Col>
+          <Col>
+            <ListGroup variant="flush">
+              <ListGroup.Item> <FaCameraRetro size={16}/> Photo credit: JZ</ListGroup.Item>
+            </ListGroup>
+          </Col>
         </Row>
         <Row>
           <Col>
