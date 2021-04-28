@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import { FaLinkedin, FaGithub, FaMailBulk, FaFileDownload } from "react-icons/fa";
 import { Figure, Container, Row, Col, ListGroup, } from "react-bootstrap";
-import JZc from "./jz3.jpg";
-import Appa from "./APPA.png";
+import JZc from "./img/jz3.jpg";
+import Appa from "./img/APPA.png";
 
 class Contact extends Component {
   render() {

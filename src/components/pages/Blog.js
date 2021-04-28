@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import { FaCameraRetro, FaHandHoldingHeart } from "react-icons/fa";
 import { Carousel, Container, Row, Col, ListGroup } from "react-bootstrap";
-import sky1 from "./1.jpg";
-import sky2 from "./2.jpg";
-import sky3 from "./3.JPG";
+import sky1 from "./img/1.jpg";
+import sky2 from "./img/2.jpg";
+import sky3 from "./img/3.JPG";
 
 class Blog extends Component {
   render() {

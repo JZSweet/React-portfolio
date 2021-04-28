@@ -1,10 +1,10 @@
 import React, { Component } from "react";
 import { Container, Row, Col, Card } from "react-bootstrap";
-import HW1 from "./HW1.png";
-import HW2 from "./HW2.png";
-import HW3 from "./HW3.png";
-import GW1 from "./GW1.png";
-import GW2 from "./GW2.png";
+import HW1 from "./img/HW1.png";
+import HW2 from "./img/HW2.png";
+import HW3 from "./img/HW3.png";
+import GW1 from "./img/GW1.png";
+import GW2 from "./img/GW2.png";
 
 
 class Project extends Component {
