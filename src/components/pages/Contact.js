@@ -1,20 +1,48 @@
-import React from "react";
+import React, { Component } from "react";
+import { FaLinkedin, FaGithub, FaMailBulk, FaFileDownload } from "react-icons/fa";
+import { Figure, Container, Row, Col, ListGroup, } from "react-bootstrap";
+import JZc from "./jz3.jpg";
+import Appa from "./APPA.png";
 
-const Contact = () => (
-  <div>
-    <h1>Contact Me</h1>
-    <p>
-      Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis molestie urna.
-      Aliquam semper ultrices varius. Aliquam faucibus sit amet magna a ultrices. Aenean
-      pellentesque placerat lacus imperdiet efficitur. In felis nisl, luctus non ante euismod,
-      tincidunt bibendum mi. In a molestie nisl, eu sodales diam. Nam tincidunt lacus quis magna
-      posuere, eget tristique dui dapibus. Maecenas fermentum elementum faucibus. Quisque nec metus
-      vestibulum, egestas massa eu, sollicitudin ipsum. Nulla facilisi. Sed ut erat ligula. Nam
-      tincidunt nunc in nibh dictum ullamcorper. Class aptent taciti sociosqu ad litora torquent per
-      conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at rhoncus. Etiam vel
-      condimentum magna, quis tempor nulla.
-    </p>
-  </div>
-);
+class Contact extends Component {
+  render() {
+    return (
+      <Container>
+        {/* <Row className="justify-content-md-center" >
+        </Row> */}
+        <Row>
+          <Col>
+            <Figure>
+              <Figure.Image
+                src={JZc}
+              />
+            </Figure>
+          </Col>
+          <Col>
+            <ListGroup variant="flush">
+              <ListGroup.Item>
+                <a href="https://www.linkedin.com/in/jiaqian-zhao-2502781ba/"> <FaLinkedin size={30} /></a> Find me on LinkedIn
+                 </ListGroup.Item>
+              <ListGroup.Item>
+                <a href="https://github.com/JZSweet"> <FaGithub size={30} /></a> Find me on GitHub
+                </ListGroup.Item>
+              <ListGroup.Item>
+                <FaMailBulk size={30} />  workmailjz@gmail.com
+              </ListGroup.Item>
+              <ListGroup.Item>
+                <FaFileDownload size={30} />  Resume
+              </ListGroup.Item>
+            </ListGroup>
+            <Figure>
+              <Figure.Image
+                src={Appa}
+              />
+            </Figure>
+          </Col>
+        </Row>
+      </Container>
+    )
+  };
+};
 
 export default Contact;

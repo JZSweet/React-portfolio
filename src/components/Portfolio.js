@@ -5,6 +5,7 @@ import Project from "./pages/Project";
 import About from "./pages/About";
 import Blog from "./pages/Blog";
 import Contact from "./pages/Contact";
+
 // import BackgroundImage from "../assets/JZ.png"
 
 
