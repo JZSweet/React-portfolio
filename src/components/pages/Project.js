@@ -5,6 +5,7 @@ import HW2 from "./img/HW2.png";
 import HW3 from "./img/HW3.png";
 import GW1 from "./img/GW1.png";
 import GW2 from "./img/GW2.png";
+import GW3 from "./img/GW3.png";
 
 
 class Project extends Component {
@@ -23,8 +24,8 @@ class Project extends Component {
               </Card.Text>
             </Card.Body>
             <Card.Body>
-              <Card.Link href="https://github.com/JZSweet/employee-directory">Checkout Repo</Card.Link>
-              <Card.Link href="https://employee-directory-jz.herokuapp.com/">Checkout Site</Card.Link>
+              <Card.Link href="https://github.com/JZSweet/employee-directory" target="_blank">Checkout Repo</Card.Link>
+              <Card.Link href="https://employee-directory-jz.herokuapp.com/" target="_blank">Checkout Site</Card.Link>
             </Card.Body>
           </Card>
           </Col>
@@ -39,8 +40,8 @@ class Project extends Component {
               </Card.Text>
             </Card.Body>
             <Card.Body>
-              <Card.Link href="https://github.com/JZSweet/countdown-quiz">Checkout Repo</Card.Link>
-              <Card.Link href="https://jzsweet.github.io/countdown-quiz/">Checkout Site</Card.Link>
+              <Card.Link href="https://github.com/JZSweet/countdown-quiz" target="_blank">Checkout Repo</Card.Link>
+              <Card.Link href="https://jzsweet.github.io/countdown-quiz/" target="_blank">Checkout Site</Card.Link>
             </Card.Body>
           </Card>
           </Col>
@@ -55,8 +56,8 @@ class Project extends Component {
               </Card.Text>
             </Card.Body>
             <Card.Body>
-              <Card.Link href="https://github.com/JZSweet/Fitness-Tracker">Checkout Repo</Card.Link>
-              <Card.Link href="https://fitness-tracker-jz.herokuapp.com/?id=60628aaa5a725f00154fd6db">Checkout Site</Card.Link>
+              <Card.Link href="https://github.com/JZSweet/Fitness-Tracker" target="_blank">Checkout Repo</Card.Link>
+              <Card.Link href="https://fitness-tracker-jz.herokuapp.com/?id=60628aaa5a725f00154fd6db" target="_blank">Checkout Site</Card.Link>
             </Card.Body>
           </Card>
           </Col>
@@ -69,12 +70,12 @@ class Project extends Component {
             <Card.Body>
               <Card.Title>Entertainment Guide</Card.Title>
               <Card.Text>
-               An app to provide movies and TV shows information to users. My first group project.
+               An app to provide movies and TV shows information to users. My first group project. Used AJAX.
               </Card.Text>
             </Card.Body>
             <Card.Body>
-              <Card.Link href="https://github.com/JZSweet/entertainment-guide">Checkout Repo</Card.Link>
-              <Card.Link href="https://kytaylor.github.io/project-1/">Checkout Site</Card.Link>
+              <Card.Link href="https://github.com/JZSweet/entertainment-guide" target="_blank">Checkout Repo</Card.Link>
+              <Card.Link href="https://kytaylor.github.io/project-1/" target="_blank">Checkout Site</Card.Link>
             </Card.Body>
           </Card>
           </Col>
@@ -85,24 +86,23 @@ class Project extends Component {
             <Card.Body>
               <Card.Title>Grocery list</Card.Title>
               <Card.Text>
-               An app to keep track of your grocery. My second group project.
+               An app to keep track of your grocery. My second group project. Used orm to connect to SQL.
               </Card.Text>
             </Card.Body>
             <Card.Body>
-              <Card.Link href="https://github.com/JZSweet/Grocery-list">Checkout Repo</Card.Link>
-              <Card.Link href="https://the-grocery-list.herokuapp.com/">Checkout Site</Card.Link>
+              <Card.Link href="https://github.com/JZSweet/Grocery-list" target="_blank">Checkout Repo</Card.Link>
+              <Card.Link href="https://the-grocery-list.herokuapp.com/" target="_blank">Checkout Site</Card.Link>
             </Card.Body>
           </Card>
           </Col>
 
           <Col>
           <Card style={{ width: '21rem' }}>
-            <Card.Img variant="top" src="holder.js/100px180?text=Image cap" />
+            <Card.Img variant="top" src={GW3} />
             <Card.Body>
-              <Card.Title></Card.Title>
+              <Card.Title>Social ButterFly</Card.Title>
               <Card.Text>
-                Some quick example text to build on the card title and make up the bulk of
-                the card's content.
+                A messenger app for social butterflies. My third group project. Used Firebase live DB.
               </Card.Text>
             </Card.Body>
             <Card.Body>
