@@ -95,7 +95,7 @@ class Project extends Component {
             </Card.Body>
           </Card>
           </Col>
-
+ 
           <Col>
           <Card style={{ width: '21rem' }}>
             <Card.Img variant="top" src={GW3} />
