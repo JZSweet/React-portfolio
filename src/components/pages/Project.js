@@ -106,8 +106,8 @@ class Project extends Component {
               </Card.Text>
             </Card.Body>
             <Card.Body>
-              <Card.Link href="#">Checkout Repo</Card.Link>
-              <Card.Link href="#">Checkout Site</Card.Link>
+              <Card.Link href="https://github.com/JZSweet/messenger-app" target="_blank">Checkout Repo</Card.Link>
+              <Card.Link href="https://messenger-app-rsl.herokuapp.com/" target="_blank">Checkout Site</Card.Link>
             </Card.Body>
           </Card>
           </Col>
