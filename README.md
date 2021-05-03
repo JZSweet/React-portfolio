@@ -1,7 +1,7 @@
 # React-portfolio
 
 ## URL
-https://github.com/JZSweet/React-portfolio
+https://react-portfolio-jz.herokuapp.com/
 
 ## Description
 My third portfolio. Build with React.
